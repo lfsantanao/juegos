@@ -1,12 +1,18 @@
+body{
+    background-color:#000c;
+}
 .text{
     text-align: center;
     font-size: 30px;
+    color:#ffffff;
 }
 .colum{
     display:flex;
     flex-direction: row;
     justify-content: center;
     padding: 50px;
+   
+  
 }
 .colum section{
     padding: 50px;
@@ -15,15 +21,19 @@
 }
 .colum img{
     transition: all .5s ease-in-out;
+    border-radius: 70px;
+   
 }
+
 
 .colum section img:hover{
     width: 400px;
     height: 450px;
+
 }
 
 
 a{
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 }
